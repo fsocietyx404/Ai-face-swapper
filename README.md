@@ -66,35 +66,7 @@ Click "Start Face Swap"
 Wait... (processing time depends on video length & hardware: minutes to hours)
 Finished video is saved as output.mp4 in the same folder as the program
 
-Common Issues & Fixes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+IssueSolution"model_file inswapper_128.onnx should exist"Model missing → download manually & place in ~/.insightface/modelsVery slow processingNo GPU detected? Install onnxruntime-gpu and proper CUDA toolkit"Protobuf parsing failed" / ONNX errorCorrupted download → delete file and re-downloadNo face detectedUse a target image with a very clear, frontal faceGUI freezesShouldn't happen (threading used) – check console for error
 
 IssueSolution"model_file inswapper_128.onnx should exist"Model missing → download manually & place in ~/.insightface/modelsVery slow processingNo GPU detected? Install onnxruntime-gpu and proper CUDA toolkit"Protobuf parsing failed" / ONNX errorCorrupted download → delete file and re-downloadNo face detectedUse a target image with a very clear, frontal faceGUI freezesShouldn't happen (threading used) – check console for errors
 requirements.txt
